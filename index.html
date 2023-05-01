@@ -20,7 +20,7 @@
     <div class="w-full mt-2 flex justify-center">
       <div class="border-b-2 w-5/6 border-cyan-500"></div>
     </div>
-    <div>
+    <div class="mt-4">
       <div class="flex items-center">
         <svg
           class="text-cyan-500"
@@ -33,42 +33,63 @@
             d="M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zM368 744c0 4.4-3.6 8-8 8h-80c-4.4 0-8-3.6-8-8V280c0-4.4 3.6-8 8-8h80c4.4 0 8 3.6 8 8v464zm192-280c0 4.4-3.6 8-8 8h-80c-4.4 0-8-3.6-8-8V280c0-4.4 3.6-8 8-8h80c4.4 0 8 3.6 8 8v184zm192 72c0 4.4-3.6 8-8 8h-80c-4.4 0-8-3.6-8-8V280c0-4.4 3.6-8 8-8h80c4.4 0 8 3.6 8 8v256z"
           />
         </svg>
-        <h2 class="font-bold text-xl">Projektek:</h2>
+        <h2 class="font-bold text-xl">&nbsp;Projektek:</h2>
       </div>
-      <div class="ml-32">
+      <article class="ml-32">
         <div class="mb-4 mt-4">
           <h3 class="text-lg font-semibold">Taskmanagament (Fullstack)</h3>
           <p class="text-md">Felhasznált technológiák:</p>
           <p class="text-md">
             Typescript, React, Redux, MaterialUI, NestJS, PostgreSQL
           </p>
+          <ul class="italic">
+            <li>JWT bejelentkezés, regisztráció</li>
+            <li>
+              A felhasználók létretudnak hozni csapatot. Feltéve, ha nincsenek
+              már egy csapatban.
+            </li>
+            <li>
+              A felhasználók meghívókód alapján tudnak csatlakozni csapathoz
+            </li>
+            <li>A csapaton belül tudnak készíteni, törölni feladatokat</li>
+          </ul>
         </div>
         <div class="w-full mt-2 flex justify-center">
-          <div class="border-b-2 w-32 border-cyan-500"></div>
+          <div class="border-b-2 w-32 border-cyan-100"></div>
         </div>
         <div class="mb-4 mt-4">
           <h3 class="text-lg font-semibold">STEN (RestAPI)</h3>
           <p class="text-md">Felhasznált technológiák:</p>
           <p class="text-md">Typescript, NestJS</p>
+          <ul class="italic">
+            <li>Iskolának készült egyszerű RestAPI, tanítási célokra.</li>
+            <li>Támogatja a GET, POST, PUT, PATCH, DELETE metódosukat.</li>
+          </ul>
         </div>
         <div class="w-full mt-2 flex justify-center">
-          <div class="border-b-2 w-32 border-cyan-500"></div>
+          <div class="border-b-2 w-32 border-cyan-100"></div>
         </div>
         <div class="mb-4 mt-4">
           <h3 class="text-lg font-semibold">Linkshortener (RestAPI)</h3>
           <p class="text-md">Felhasznált technológiák:</p>
           <p class="text-md">Express, Mongoose, MongoDB</p>
+          <ul class="italic">
+            <li>Egyszerű URL rövíditő, MongoDB-vel.</li>
+          </ul>
         </div>
         <div class="w-full mt-2 flex justify-center">
-          <div class="border-b-2 w-32 border-cyan-500"></div>
+          <div class="border-b-2 w-32 border-cyan-100"></div>
         </div>
         <div class="mb-4 mt-4">
           <h3 class="text-lg font-semibold">HEDPhotography</h3>
           <p class="text-md">Felhasznált technológiák:</p>
           <p class="text-md">NextJS</p>
+          <ul>
+            <li></li>
+          </ul>
         </div>
-      </div>
-      <div>
+      </article>
+      <div class="mt-4">
         <div class="flex items-center">
           <svg
             viewBox="0 0 20 20"
@@ -81,9 +102,48 @@
               d="M3.33 8L10 12l10-6-10-6L0 6h10v2H3.33zM0 8v8l2-2.22V9.2L0 8zm10 12l-5-3-2-1.2v-6l7 4.2 7-4.2v6L10 20z"
             />
           </svg>
-          <h2 class="font-bold text-xl">Tanulmányok:</h2>
+          <h2 class="font-bold text-xl">&nbsp;Tanulmányok:</h2>
+        </div>
+        <div class="ml-32">
+          <div class="mb-4 mt-4">
+            <p class="italic">2021-2023</p>
+            <h3 class="text-lg font-semibold">
+              II. Rákóczi Ferenc Katolikus Gimnázium és Technikum
+            </h3>
+            <p class="text-md">
+              Informatikai alkalmazás- és rendszerüzemeltető
+            </p>
+            <p>CCNA & ITE</p>
+          </div>
+          <div class="mb-4 mt-4">
+            <p class="italic">2017-2021</p>
+            <h3 class="text-lg font-semibold">
+              II. Rákóczi Ferenc Katolikus Gimnázium és Technikum
+            </h3>
+            <p class="text-md">Érettségi</p>
+            <p>ECDL</p>
+          </div>
         </div>
       </div>
+      <!-- <div>
+        <div class="flex items-center">
+          <svg
+            fill="currentColor"
+            class="text-cyan-500"
+            viewBox="0 0 16 16"
+            height="2rem"
+            width="2rem"
+          >
+            <path
+              d="M14.12 10.163l1.715.858c.22.11.22.424 0 .534L8.267 15.34a.598.598 0 01-.534 0L.165 11.555a.299.299 0 010-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0l5.317-2.66zM7.733.063a.598.598 0 01.534 0l7.568 3.784a.3.3 0 010 .535L8.267 8.165a.598.598 0 01-.534 0L.165 4.382a.299.299 0 010-.535L7.733.063z"
+            />
+            <path
+              d="M14.12 6.576l1.715.858c.22.11.22.424 0 .534l-7.568 3.784a.598.598 0 01-.534 0L.165 7.968a.299.299 0 010-.534l1.716-.858 5.317 2.659c.505.252 1.1.252 1.604 0l5.317-2.659z"
+            />
+          </svg>
+          <h2 class="font-bold text-xl">&nbsp;Technológia jártasság:</h2>
+        </div>
+      </div> -->
     </div>
   </body>
 </html>
